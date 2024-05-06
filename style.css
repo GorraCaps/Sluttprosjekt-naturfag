@@ -1,0 +1,45 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+}
+
+.kilder-og-overskrift {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.kursiv {
+    font-style: italic;
+}
+
+.kilder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.kilde {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.tekst-kilde {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 670px) {
+    .tekst-kilde {
+      font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .tekst-kilde {
+      font-size: 12px;
+    }
+}
